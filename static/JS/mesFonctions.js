@@ -43,3 +43,12 @@ function changerSection()
 
   toggleNav();
 }());
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    particlesJS.load('particles', '/static/config/particles.json', function() {
+        console.log('✨ Particules chargées !');
+    });
+
+});

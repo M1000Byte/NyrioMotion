@@ -2,6 +2,11 @@ body {
     margin: 0;
     overflow: hidden; 
     font-family: 'Segoe UI', sans-serif;
+   -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	width: 100%;
+	background-color: black;
 }
 
 #btn_toogle {
