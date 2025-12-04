@@ -2,13 +2,13 @@
 NyrioMotion est une interface de téléopération robotique permettant de contrôler un bras robotisé Niryo Ned 2 en temps réel via la reconnaissance de mouvements de la main (Leap Motion).
 
 Ce projet a été réalisé dans le cadre de notre première année d'informatique.
- 👥Auteurs
+ 
+ # 👥Auteurs
+ 
+[Daouda](https://github.com/Daouda94)<br/>
+[Wellington](https://github.com/M1000Byte)<br/>
 
-    [Daouda](https://github.com/Daouda94)
-
-    [Wellington](https://github.com/M1000Byte)
-
-🚀 Fonctionnalités
+# 🚀 Fonctionnalités
 
     Interface Web de Contrôle : Dashboard interactif pour visualiser l'état du système.
 
@@ -33,15 +33,15 @@ Matériel
 
     Ordinateur sous Windows (recommandé pour les drivers Leap Motion v1).
 
-Logiciel
-
-    Python 3.10.11
-
-    Drivers Leap Motion (  Orion 4.10 ) installés et fonctionnels. 
+# 📦 Dependencies
+ 
+ * [**Python**](https://www.python.org/)
+ * [**Drivers Leap Motion**](https://www.ultraleap.com/downloads/leap-controller) (  Orion 4.10 )
+   
  >[!WARNING]
 >Important faut cocher la case dans le panneau de commande de la leap motion " Autoriser les applications Web".
 
- 📦Installation
+ # 📦Installation
 
     Cloner le projet (ou extraire l'archive) :
     Bash
