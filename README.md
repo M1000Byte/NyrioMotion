@@ -43,15 +43,18 @@ Matériel
 
  # 📦Installation
 
-    Cloner le projet (ou extraire l'archive) :
-    Bash
+Cloner le projet (ou extraire l'archive) :
 
+```console
 cd NyrioMotion
+```
 
 Installer les dépendances Python : Ouvrez un terminal dans le dossier du projet et exécutez :
-Bash
 
+
+```console
 pip install flask pyniryo2 roslibpy==1.2.0
+```
 
 Configuration Réseau :
 
@@ -85,27 +88,6 @@ Python
         Bouger la main (Gauche/Droite) : Fait pivoter la base du robot.
 
         Bouger la main (Haut/Bas) : Fait monter ou descendre le bras.
-
-# 📂 Structure du Projet
-
-Le projet respecte l'architecture Flask standard :
-Plaintext
-
-NyrioMotion/
-│
-├── app.py                  # Cerveau du projet (Serveur Flask & Contrôle Robot)
-│
-├── templates/              # Dossier des pages HTML
-│   └── index.html          # Interface utilisateur principale
-│
-└── static/                 # Fichiers statiques (JS, CSS, Images)
-    ├── CSS/
-    │   └── style.css       # Mise en forme de l'interface
-    │
-    └── JS/
-        ├── leap-1.1.1.js   # SDK Leap Motion (Client)
-        ├── DataLeap.js     # Logique de capture et d'envoi des données
-        └── mesFonctions.js # Gestion de l'interface utilisateur
 
 # ⚙️ Détails Techniques
 
