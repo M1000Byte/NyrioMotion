@@ -33,7 +33,7 @@ Matériel
 
     Ordinateur sous Windows (recommandé pour les drivers Leap Motion v1).
 
-# 📦 Dependencies
+# 📦 Logiciels
  
  * [**Python**](https://www.python.org/) ( 3.10.11 )
  * [**Drivers Leap Motion**](https://www.ultraleap.com/downloads/leap-controller) (  Orion 4.10 )
