@@ -35,7 +35,7 @@ Matériel
 
 # 📦 Dependencies
  
- * [**Python**](https://www.python.org/)
+ * [**Python**](https://www.python.org/) ( 3.10.11 )
  * [**Drivers Leap Motion**](https://www.ultraleap.com/downloads/leap-controller) (  Orion 4.10 )
    
  >[!WARNING]
