@@ -1,12 +1,12 @@
 
 NyrioMotion est une interface de téléopération robotique permettant de contrôler un bras robotisé Niryo Ned 2 en temps réel via la reconnaissance de mouvements de la main (Leap Motion).
 
-Ce projet a été réalisé dans le cadre de notre première année d'informatique.
+Ce projet a été réalisé dans le cadre de notre deuxième année d'informatique.
  
  # 👥Auteurs
  
-[Daouda](https://github.com/Daouda94)<br/>
-[Wellington](https://github.com/M1000Byte)<br/>
+[**Daouda**](https://github.com/Daouda94)<br/>
+[**Wellington**](https://github.com/M1000Byte)<br/>
 
 # 🚀 Fonctionnalités
 
@@ -24,7 +24,7 @@ Ce projet a été réalisé dans le cadre de notre première année d'informatiq
 
         Déplacement du Bras : Mouvements relatifs basés sur la position de la main.
 
- 🛠️Prérequis
+ # 🛠️Prérequis
 Matériel
 
     Robot Niryo Ned 2 (Connecté au même réseau que l'ordinateur).
@@ -63,7 +63,7 @@ Python
 
     ROBOT_IP = "172.20.21.191" # Exemple
 
-▶ Utilisation
+# ▶ Utilisation
 
     Lancer le Serveur : Dans le terminal, lancez la commande :
     Bash
@@ -86,7 +86,7 @@ Python
 
         Bouger la main (Haut/Bas) : Fait monter ou descendre le bras.
 
-📂 Structure du Projet
+# 📂 Structure du Projet
 
 Le projet respecte l'architecture Flask standard :
 Plaintext
@@ -107,7 +107,7 @@ NyrioMotion/
         ├── DataLeap.js     # Logique de capture et d'envoi des données
         └── mesFonctions.js # Gestion de l'interface utilisateur
 
-⚙️ Détails Techniques
+# ⚙️ Détails Techniques
 
     Frontend : HTML5, CSS3, JavaScript (LeapJS). Utilise fetch pour envoyer des commandes asynchrones au serveur sans recharger la page.
 
