@@ -36,7 +36,7 @@ Matériel
 # 📦 Logiciels
  
  * [**Python**](https://www.python.org/) ( 3.10.11 )
- * [**Drivers Leap Motion**](https://www.ultraleap.com/downloads/leap-controller) (  Orion 4.10 )
+ * [**Drivers Leap Motion**](https://www.ultraleap.com/downloads/leap-controller) (  Orion 4.1.0 )
    
  >[!WARNING]
 >Important faut cocher la case dans le panneau de commande de la leap motion " Autoriser les applications Web".
