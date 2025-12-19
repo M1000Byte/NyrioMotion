@@ -2,6 +2,11 @@ body {
     margin: 0;
     overflow: hidden; 
     font-family: 'Segoe UI', sans-serif;
+    background-color: black;
+    background-image : url("/static/icones/fond.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #btn_toogle {
@@ -15,6 +20,8 @@ body {
     border-radius: 5px; 
     font-size: 16px; 
     margin-bottom: 15px;
+    margin-left: 20px;
+    width: 20%;
 }
 
 #btn_toogle:hover {
@@ -22,7 +29,6 @@ body {
 }
 
 body{
-   background-color: black;
    margin: 0;
    padding: 0;
 }
@@ -92,4 +98,14 @@ ul li a {
 
 ul li a:hover {
   background-color: #1466b8;
+}
+#content_body{
+    margin-left: 20px;
+    color: white;
+}
+#statut{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
 }

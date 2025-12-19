@@ -30,7 +30,7 @@ Leap.loop(function(frame) {
             statut.style.color = "green";
 
             let maintenant = Date.now();
-            if (maintenant - dernierEnvoi > 600) {
+            if (maintenant - dernierEnvoi > 800) {
                 let payload = { x: hand_x, y: hand_y, grab: is_closed };
             
                 fetch('/commande-robot', {
