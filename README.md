@@ -108,7 +108,7 @@ NyrioMotion/
         ├── leap-1.1.1.js   # SDK Leap Motion (Client)
         ├── DataLeap.js     # Logique de capture et d'envoi des données
         └── mesFonctions.js # Gestion de l'interface utilisateur
-        ```
+```
 # ⚙️ Détails Techniques
 
     Frontend : HTML5, CSS3, JavaScript (LeapJS). Utilise fetch pour envoyer des commandes asynchrones au serveur sans recharger la page.
