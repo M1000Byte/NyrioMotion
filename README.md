@@ -1,15 +1,14 @@
 
-
 NyrioMotion est une interface de téléopération robotique permettant de contrôler un bras robotisé Niryo Ned 2 en temps réel via la reconnaissance de mouvements de la main (Leap Motion).
 
-Ce projet a été réalisé dans le cadre de notre première année d'informatique.
-👥 Auteurs
+Ce projet a été réalisé dans le cadre de notre deuxième année d'informatique.
+ 
+ # 👥Auteurs
+ 
+[**Daouda**](https://github.com/Daouda94)<br/>
+[**Wellington**](https://github.com/M1000Byte)<br/>
 
-    Wellington (GitHub)
-
-    Cisse Daouda (GitHub)
-
-🚀 Fonctionnalités
+# 🚀 Fonctionnalités
 
     Interface Web de Contrôle : Dashboard interactif pour visualiser l'état du système.
 
@@ -25,7 +24,7 @@ Ce projet a été réalisé dans le cadre de notre première année d'informatiq
 
         Déplacement du Bras : Mouvements relatifs basés sur la position de la main.
 
-🛠️ Prérequis
+ # 🛠️Prérequis
 Matériel
 
     Robot Niryo Ned 2 (Connecté au même réseau que l'ordinateur).
@@ -34,23 +33,28 @@ Matériel
 
     Ordinateur sous Windows (recommandé pour les drivers Leap Motion v1).
 
-Logiciel
+# 📦 Logiciels
+ 
+ * [**Python**](https://www.python.org/) ( 3.10.11 )
+ * [**Drivers Leap Motion**](https://www.ultraleap.com/downloads/leap-controller) (  Orion 4.1.0 )
+   
+ >[!WARNING]
+>Important faut cocher la case dans le panneau de commande de la leap motion " Autoriser les applications Web".
 
-    Python 3.10+
+ # 📦Installation
 
-    Drivers Leap Motion (Gemini ou Orion v4) installés et fonctionnels.
+Cloner le projet (ou extraire l'archive) :
 
-📦 Installation
-
-    Cloner le projet (ou extraire l'archive) :
-    Bash
-
+```console
 cd NyrioMotion
+```
 
 Installer les dépendances Python : Ouvrez un terminal dans le dossier du projet et exécutez :
-Bash
 
-pip install flask pyniryo2
+
+```console
+pip install flask pyniryo2 roslibpy==1.2.0
+```
 
 Configuration Réseau :
 
@@ -62,7 +66,7 @@ Python
 
     ROBOT_IP = "172.20.21.191" # Exemple
 
-▶️ Utilisation
+# ▶ Utilisation
 
     Lancer le Serveur : Dans le terminal, lancez la commande :
     Bash
@@ -77,14 +81,13 @@ Python
 
         Placez votre main au-dessus de la Leap Motion.
 
-        Fermer le poing ✊ : Ferme la pince du robot.
+        Fermer le poing  : Ferme la pince du robot.
 
-        Ouvrir la main 🖐️ : Ouvre la pince.
+        Ouvrir la main  : Ouvre la pince.
 
         Bouger la main (Gauche/Droite) : Fait pivoter la base du robot.
 
         Bouger la main (Haut/Bas) : Fait monter ou descendre le bras.
-
 📂 Structure du Projet
 
 Le projet respecte l'architecture Flask standard :
@@ -105,11 +108,10 @@ NyrioMotion/
         ├── leap-1.1.1.js   # SDK Leap Motion (Client)
         ├── DataLeap.js     # Logique de capture et d'envoi des données
         └── mesFonctions.js # Gestion de l'interface utilisateur
-
-⚙️ Détails Techniques
+# ⚙️ Détails Techniques
 
     Frontend : HTML5, CSS3, JavaScript (LeapJS). Utilise fetch pour envoyer des commandes asynchrones au serveur sans recharger la page.
 
     Backend : Python (Flask). Reçoit les requêtes JSON du frontend et utilise la librairie pyniryo2 pour convertir ces coordonnées en commandes moteurs.
 
-    Sécurité : Implémentation d'un système de "Throttling" (limitation de débit) dans le JavaScript pour éviter de saturer le robot de commandes.
+    Sécurité : Implémentation d'un système de limitation de débit dans le JavaScript pour éviter de saturer le robot de commandes.
